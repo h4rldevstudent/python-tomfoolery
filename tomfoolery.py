@@ -11,7 +11,7 @@ audio_file = os.path.dirname(__file__) + '/assets/audio.mp3'
 message = tk.Label(root, text="You just got sussied!")
 root.title("Amogus")
 root.wm_iconbitmap('./assets/amogus.ico')
-root.geometry("600x400")
+root.geometry("1200x800")
 
 pygame.mixer.init()# initialise the pygame
 
