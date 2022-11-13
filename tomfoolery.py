@@ -1,9 +1,8 @@
-import tkinter as tk
-import pygame
-import time
 import os
+import time
+import tkinter as tk
 
-
+import pygame
 
 root = tk.Tk()
 
@@ -30,5 +29,3 @@ message.pack()
 image_label.pack()
 play()
 tk.mainloop()
-
-
